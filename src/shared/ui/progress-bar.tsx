@@ -1,7 +1,7 @@
 "use client";
 
-import { cn } from "@/shared/lib";
 import { useIntersectionObserver } from "@/shared/hooks";
+import { cn } from "@/shared/lib";
 
 type ProgressBarProps = {
   value: number;
@@ -20,12 +20,12 @@ export function ProgressBar({
     <div
       ref={ref}
       className={cn(
-        "h-1.5 w-full overflow-hidden rounded-full bg-zinc-800",
+        "h-1.5 w-full overflow-hidden rounded-full bg-muted",
         className,
       )}
     >
       <div
-        className="h-full rounded-full bg-zinc-100 transition-[width] duration-700 ease-out"
+        className="h-full rounded-full bg-primary transition-[width] duration-700 ease-out"
         style={{
           width: isInView ? `${value}%` : "0%",
           transitionDelay: `${delayMs}ms`,
