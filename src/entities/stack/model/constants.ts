@@ -33,6 +33,13 @@ export const stackCategories: StackCategory[] = [
         level: "primary",
         progress: 85,
       },
+      {
+        id: "ReactQuery",
+        name: "Tanstack Query",
+        abbr: "TQ",
+        level: "primary",
+        progress: 85,
+      },
     ],
   },
   {
@@ -45,6 +52,13 @@ export const stackCategories: StackCategory[] = [
         abbr: "Nd",
         level: "familiar",
         progress: 70,
+      },
+      {
+        id: "Nest",
+        name: "Nest.js",
+        abbr: "Ne",
+        level: "familiar",
+        progress: 65,
       },
       {
         id: "postgres",

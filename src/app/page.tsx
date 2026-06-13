@@ -1,14 +1,14 @@
 import { About, Header, Hero, QuickStats } from "@/widgets";
-import { SectionDivider } from "@/shared/ui";
+import { Separator } from "@/shared/ui";
 
 export default function Page() {
   return (
     <>
       <Header activePath="/" />
       <Hero />
-      <SectionDivider />
+      <Separator gradient className="max-w-5xl mx-auto" />
       <About />
-      <SectionDivider />
+      <Separator gradient className="max-w-5xl mx-auto" />
       <QuickStats />
     </>
   );
